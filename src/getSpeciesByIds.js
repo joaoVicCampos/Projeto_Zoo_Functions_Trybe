@@ -5,6 +5,5 @@ const getSpeciesByIds = (...ids) => {
     ids.includes(id.id));
   return speciesIdReturned;
 };
-console.log(getSpeciesByIds());
 
 module.exports = getSpeciesByIds;
