@@ -8,7 +8,7 @@ describe('Testes da função HandlerElephants', () => {
     expect(handlerElephants('names')).toEqual(['Ilana', 'Orval', 'Bea', 'Jefferson']);
   });
   it('retorna a média de idade dos elefantes', () => {
-    expect(handlerElephants('averageAge')).toBe(10.5);
+    expect(handlerElephants('averageAge')).toBeCloseTo(10.5, 2);
   });
   it('retorna a localização dos elefantes dentro do Zoológico', () => {
     expect(handlerElephants('location')).toBe('NW');
@@ -18,5 +18,11 @@ describe('Testes da função HandlerElephants', () => {
   });
   it('retorna um array com a relação de dias em que é possível visitar os elefantes', () => {
     expect(handlerElephants('availability')).toEqual(['Friday', 'Saturday', 'Sunday', 'Tuesday']);
+  });
+  it('retorna um array com a relação de dias em que é possível visitar os elefantes', () => {
+    expect(handlerElephants('availability')).not.toEqual(['Monday']);
+  });
+  it('retorna undefined se não forem passados argumentos', () => {
+    expect(handlerElephants()).toBe(undefined);
   });
 });
