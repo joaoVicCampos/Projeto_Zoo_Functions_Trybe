@@ -1,10 +1,4 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+<h1 align="center"> Projeto Zoo Function </h1>
+Projeto voltado para "simular" o funcionamento de um zoológicon contando suas entradas, calculando os valores de entrada,horários de funcionamento, horários de exposição dos animais,a quantidade de animias do zoológico, entre outros...
+
+Esse foi um projeto em JavaScript onde eu tive que aplicar funçoẽs(a pasta src) cujas os testes já estavam feitos,e fazer dois testes(getOpeningHours.test.js,handlerElephants.test.js) cujos as funções já estavam prontas. Os demais arquivos foram cedidos e feitos pela Trybe.
