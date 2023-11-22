@@ -2,6 +2,7 @@
 Este é um projeto em JavaScript que simula o funcionamento de um zoológico, rastreando entradas, calculando valores de entrada, gerenciando horários de funcionamento, exibindo os horários de exposição dos animais e monitorando a quantidade de animais no zoológico, entre outras funcionalidades.
 
 <strong>Estrutura do Projeto</strong>
+</br>
 src/: Esta pasta contém as implementações das funções principais do projeto. Os testes associados a essas funções já foram fornecidos e estão localizados na pasta tests/.
 
 tests/: Contém testes automatizados para as funções implementadas no diretório src/. Os arquivos getOpeningHours.test.js e handlerElephants.test.js já foram completados.
