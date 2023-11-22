@@ -15,10 +15,10 @@ Tratamento de Elefantes (src/handlerElephants.js): Esta função processa inform
 
 <strong>Demais Funcionalidades:</strong> Outras funções dentro do diretório src/ executam tarefas relacionadas ao acompanhamento das entradas, exposição dos animais e contagem total de animais no zoológico.
 
-<strong>estes Automatizados</strong>
+<strong>Testes Automatizados:</strong>
 getOpeningHours.test.js e handlerElephants.test.js: Esses testes foram fornecidos, e suas funções correspondentes (getOpeningHours e handlerElephants) já foram implementadas.
 
-Testes Adicionais: Você pode adicionar mais testes para as outras funções implementadas em src/ para garantir a robustez e a confiabilidade do código.
+<strong>Testes Adicionais:</trong> Você pode adicionar mais testes para as outras funções implementadas em src/ para garantir a robustez e a confiabilidade do código.
 
 <strong>Instruções de Uso</strong>
 Instalação:
